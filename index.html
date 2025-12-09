@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nikolaos Sarris - Portfolio</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header id="header">
+            <nav class="container">
+                <div class="nav-content">
+                    <h1 class="logo">NS</h1>
+                    <div class="nav-links">
+                        <button class="nav-link active" data-section="about">
+                            About
+                        </button>
+                        <button class="nav-link" data-section="skills">
+                            Skills
+                        </button>
+                        <button class="nav-link" data-section="projects">
+                            Projects
+                        </button>
+                        <button class="nav-link" data-section="experience">
+                            Experience
+                        </button>
+                        <button class="nav-link" data-section="contact">
+                            Contact
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section / About -->
+        <section class="hero about-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Nikolaos Sarris</h2>
+                    <p class="hero-subtitle">
+                        Computer Science Student | Full-Stack Developer
+                    </p>
+                    <p class="hero-description">
+                        Motivated trilingual student recognized for strong
+                        communication and collaboration in academic and project
+                        work. Known for persistence, eagerness to learn new
+                        technologies, and a positive approach to tackling
+                        challenges.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+            <div class="container">
+                <h3 class="section-title">
+                    <svg
+                        class="icon-title"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                    Technical Skills
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4 class="category-title">Languages</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript/TypeScript</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Bash</span>
+                            <span class="skill-tag">SQL/NoSQL</span>
+                            <span class="skill-tag">Kotlin</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4 class="category-title">Frameworks</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">.NET</span>
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">ASP.NET</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4 class="category-title">Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Microsoft 365</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4 class="category-title">Concepts</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">OOP</span>
+                            <span class="skill-tag">Data Structures</span>
+                            <span class="skill-tag">Algorithms</span>
+                            <span class="skill-tag">Databases</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section">
+            <div class="container">
+                <h3 class="section-title">Featured Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4 class="project-title">
+                            Experimental Minecraft Mod
+                        </h4>
+                        <p class="project-description">
+                            Designed and implemented a Minecraft mod with 10+
+                            new items, blocks, and mechanics to enhance
+                            gameplay, improving user creativity and engagement.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Forge API</span>
+                            <span class="tech-tag">IntelliJ</span>
+                        </div>
+                        <ul class="project-highlights">
+                            <li>
+                                Created custom data generation classes to
+                                increase efficiency of implementation
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="project-card">
+                        <h4 class="project-title">Dragon Ball TBF</h4>
+                        <p class="project-description">
+                            Built a turn-based fighting game from scratch with
+                            5+ playable characters, dynamically using a Dragon
+                            Ball API to fetch characters, moves, and stats.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <ul class="project-highlights">
+                            <li>
+                                Structured gameplay mechanics and designed user
+                                interface for smooth API interaction
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a
+                        href="https://github.com/NikolaosSarris"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary">
+                        View More on GitHub
+                        <svg
+                            class="icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section">
+            <div class="container">
+                <h3 class="section-title">
+                    <svg
+                        class="icon-title"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+                        <rect
+                            x="2"
+                            y="7"
+                            width="20"
+                            height="14"
+                            rx="2"
+                            ry="2"></rect>
+                        <path
+                            d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    Experience
+                </h3>
+                <div class="experience-list">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div>
+                                <h4 class="experience-title">Math Tutor</h4>
+                                <p class="experience-company">Private & PCHS</p>
+                            </div>
+                            <span class="experience-period">2021–2023</span>
+                        </div>
+                        <ul class="experience-achievements">
+                            <li>
+                                Tutored elementary and high school students
+                                leading to an average improvement of 10–15% in
+                                their grades
+                            </li>
+                            <li>
+                                Developed communication and problem-solving
+                                skills through personalized lessons
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div>
+                                <h4 class="experience-title">
+                                    Walker / Driver's Assistant
+                                </h4>
+                                <p class="experience-company">UPS Canada</p>
+                            </div>
+                            <span class="experience-period">Summer 2020</span>
+                        </div>
+                        <ul class="experience-achievements">
+                            <li>
+                                Assisted in the daily delivery of 70+ packages,
+                                ensuring on-time arrivals in a fast-paced
+                                environment
+                            </li>
+                            <li>
+                                Supported drivers in optimizing efficiency,
+                                leading to an increase of packages delivered
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Awards -->
+        <section class="education-section">
+            <div class="container">
+                <h3 class="section-title">
+                    <svg
+                        class="icon-title"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline
+                            points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                    Education & Awards
+                </h3>
+                <div class="education-card">
+                    <h4 class="education-title">John Abbott College</h4>
+                    <p class="education-degree">
+                        Computer Science and Technology Diploma
+                    </p>
+                    <p class="education-period">2023 - 2026</p>
+                </div>
+                <div class="awards-grid">
+                    <div class="award-card">
+                        <svg
+                            class="award-icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline
+                                points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <span
+                            >John Abbott College Dean's List (2023 - 2025) -
+                            R-Score: 33.534</span
+                        >
+                    </div>
+                    <div class="award-card">
+                        <svg
+                            class="award-icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline
+                                points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <span>French Academic Medal of Excellence (2023)</span>
+                    </div>
+                    <div class="award-card">
+                        <svg
+                            class="award-icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline
+                                points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <span>Staff & Faculty Award, PCHS (2023)</span>
+                    </div>
+                    <div class="award-card">
+                        <svg
+                            class="award-icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline
+                                points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <span
+                            >Outstanding Achievement in Math Medal (2018)</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <h3 class="section-title">
+                    <svg
+                        class="icon-title"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2">
+                        <path
+                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Get In Touch
+                </h3>
+                <p class="contact-description">
+                    Feel free to reach out for opportunities, collaborations, or
+                    just to connect!
+                </p>
+                <div class="contact-grid">
+                    <a href="mailto:nsarris04@gmail.com" class="contact-card">
+                        <svg
+                            class="contact-icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>nsarris04@gmail.com</span>
+                    </a>
+                    <a
+                        href="https://github.com/NikolaosSarris"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-card">
+                        <svg
+                            class="contact-icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/nikolaossarris"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-card">
+                        <svg
+                            class="contact-icon"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    © 2025 Nikolaos Sarris. Built with HTML, CSS, and
+                    JavaScript.
+                </p>
+            </div>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
