@@ -191,6 +191,16 @@ body {
     z-index: 1;
 }
 
+.icon-title {
+    width: 36px;
+    height: 36px;
+    color: var(--nebula-blue);
+}
+
+.skills-section .icon-title {
+    color: var(--cosmic-cyan);
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -249,6 +259,10 @@ body {
     position: relative;
 }
 
+.projects-section .icon-title {
+    color: var(--nebula-pink);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -264,11 +278,16 @@ body {
     border-radius: 0.5rem;
     border: 1px solid var(--border-light);
     transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
 }
 
 .project-card:hover {
     border-color: var(--nebula-pink);
     transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(219, 39, 119, 0.15);
 }
 
 .project-title {
@@ -336,6 +355,10 @@ body {
     padding: 5rem 1.5rem;
     background: #f9e9d5;
     position: relative;
+}
+
+.experience-section .icon-title {
+    color: var(--mars-orange);
 }
 
 .experience-list {
@@ -407,6 +430,10 @@ body {
     position: relative;
 }
 
+.education-section .icon-title {
+    color: var(--star-yellow);
+}
+
 .education-card {
     background: var(--bg-white);
     padding: 2rem;
@@ -473,6 +500,10 @@ body {
     padding: 5rem 1.5rem;
     background: #ecfeff;
     position: relative;
+}
+
+.contact-section .icon-title {
+    color: var(--cosmic-cyan);
 }
 
 .contact-description {
@@ -620,6 +651,11 @@ html {
     .section-title {
         font-size: 1.75rem;
         margin-bottom: 2rem;
+    }
+
+    .icon-title {
+        width: 28px;
+        height: 28px;
     }
 
     .skills-section,
