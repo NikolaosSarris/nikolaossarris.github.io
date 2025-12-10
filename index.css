@@ -142,13 +142,6 @@ body {
     margin: 0 auto 3rem;
 }
 
-.about-links {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-}
-
 .btn {
     display: inline-flex;
     align-items: center;
@@ -164,7 +157,6 @@ body {
     background: var(--nebula-purple);
     color: white;
     position: relative;
-    overflow: hidden;
 }
 
 .btn:hover {
@@ -176,13 +168,6 @@ body {
 .btn-primary {
     font-size: 1.125rem;
     padding: 1rem 2rem;
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    z-index: 1;
 }
 
 /* Skills Section */
@@ -204,16 +189,6 @@ body {
     color: var(--text-dark);
     position: relative;
     z-index: 1;
-}
-
-.icon-title {
-    width: 36px;
-    height: 36px;
-    color: var(--nebula-blue);
-}
-
-.skills-section .icon-title {
-    color: var(--cosmic-cyan);
 }
 
 .skills-grid {
@@ -272,10 +247,6 @@ body {
     padding: 5rem 1.5rem;
     background: #fdf2f8;
     position: relative;
-}
-
-.projects-section .icon-title {
-    color: var(--nebula-pink);
 }
 
 .projects-grid {
@@ -367,10 +338,6 @@ body {
     position: relative;
 }
 
-.experience-section .icon-title {
-    color: var(--mars-orange);
-}
-
 .experience-list {
     display: flex;
     flex-direction: column;
@@ -440,10 +407,6 @@ body {
     position: relative;
 }
 
-.education-section .icon-title {
-    color: var(--star-yellow);
-}
-
 .education-card {
     background: var(--bg-white);
     padding: 2rem;
@@ -510,10 +473,6 @@ body {
     padding: 5rem 1.5rem;
     background: #ecfeff;
     position: relative;
-}
-
-.contact-section .icon-title {
-    color: var(--cosmic-cyan);
 }
 
 .contact-description {
@@ -647,11 +606,6 @@ html {
         margin-bottom: 2rem;
     }
 
-    .about-links {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
     .btn {
         width: 100%;
         justify-content: center;
@@ -666,11 +620,6 @@ html {
     .section-title {
         font-size: 1.75rem;
         margin-bottom: 2rem;
-    }
-
-    .icon-title {
-        width: 28px;
-        height: 28px;
     }
 
     .skills-section,
