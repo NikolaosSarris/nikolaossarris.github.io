@@ -74,6 +74,25 @@ body {
 .nav-links {
     display: flex;
     gap: 1.5rem;
+    margin-left: auto;
+}
+
+/* Language toggle */
+.lang-toggle {
+    margin-left: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--nebula-purple);
+    border-radius: 0.375rem;
+    color: var(--nebula-purple);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.lang-toggle:hover {
+    background: var(--nebula-purple);
+    color: var(--bg-white);
 }
 
 .nav-link {
@@ -566,7 +585,20 @@ html {
 
 /* Responsive */
 @media (max-width: 768px) {
+    /* Logo and language toggle on the first row, section links below */
+    .nav-content {
+        flex-wrap: wrap;
+        row-gap: 0.5rem;
+    }
+
+    .lang-toggle {
+        margin-left: auto;
+    }
+
     .nav-links {
+        order: 1;
+        width: 100%;
+        justify-content: space-between;
         gap: 1rem;
     }
 
@@ -575,7 +607,7 @@ html {
     }
 
     .about {
-        padding: 6rem 1.5rem 3rem;
+        padding: 7rem 1.5rem 3rem;
     }
 
     .skills-grid {
@@ -610,7 +642,7 @@ html {
     }
 
     .nav-links {
-        gap: 0.75rem;
+        gap: 0.5rem;
     }
 
     .nav-link {
@@ -619,7 +651,7 @@ html {
     }
 
     .about {
-        padding: 5rem 1rem 2rem;
+        padding: 6rem 1rem 2rem;
     }
 
     .about-title {
